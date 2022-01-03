@@ -1,20 +1,17 @@
-body{
-    
-}
+
 .form{
     max-width: 700px;
-    
     margin: auto;
     box-sizing: border-box;
-
+    border: 20px solid green;
 }
 .form-inline{
-  
-  padding: 12px 20px;
-  margin: 8px 0;
-  border: 1px solid red;
-  border-radius: 4px;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 #submit{
     width: 100%;
@@ -26,3 +23,58 @@ body{
   border-radius: 4px;
   cursor: pointer;
 }
+#country {
+  width: 100%;
+  background-color: brown;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid lawngreen;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#pwd{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid lawngreen;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: darkslategray;
+}
+#f {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid lawngreen;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: grey;
+}
+#L {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid lawngreen;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: darkmagenta;
+  }
+  #email{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid lawngreen;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #4CAF50;
+  }
+  span{
+      background-color: darkred;
+      color: white;
+      
+  }
